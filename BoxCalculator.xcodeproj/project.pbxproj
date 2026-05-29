@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		4C8FD05A2FCA30EE007422F9 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8FD05A2FCA30EE007422F9 /* BoxCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4C8FD05C2FCA30EE007422F9 /* HelloWorld */ = {
+		4C8FD05C2FCA30EE007422F9 /* BoxCalculator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloWorld;
+			path = BoxCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		4C8FD0512FCA30EE007422F9 = {
 			isa = PBXGroup;
 			children = (
-				4C8FD05C2FCA30EE007422F9 /* HelloWorld */,
+				4C8FD05C2FCA30EE007422F9 /* BoxCalculator */,
 				4C8FD05B2FCA30EE007422F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		4C8FD05B2FCA30EE007422F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C8FD05A2FCA30EE007422F9 /* HelloWorld.app */,
+				4C8FD05A2FCA30EE007422F9 /* BoxCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C8FD0592FCA30EE007422F9 /* HelloWorld */ = {
+		4C8FD0592FCA30EE007422F9 /* BoxCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C8FD0652FCA30EF007422F9 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 4C8FD0652FCA30EF007422F9 /* Build configuration list for PBXNativeTarget "BoxCalculator" */;
 			buildPhases = (
 				4C8FD0562FCA30EE007422F9 /* Sources */,
 				4C8FD0572FCA30EE007422F9 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4C8FD05C2FCA30EE007422F9 /* HelloWorld */,
+				4C8FD05C2FCA30EE007422F9 /* BoxCalculator */,
 			);
-			name = HelloWorld;
+			name = BoxCalculator;
 			packageProductDependencies = (
 			);
 			productName = HelloWorld;
-			productReference = 4C8FD05A2FCA30EE007422F9 /* HelloWorld.app */;
+			productReference = 4C8FD05A2FCA30EE007422F9 /* BoxCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C8FD0552FCA30EE007422F9 /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 4C8FD0552FCA30EE007422F9 /* Build configuration list for PBXProject "BoxCalculator" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C8FD0592FCA30EE007422F9 /* HelloWorld */,
+				4C8FD0592FCA30EE007422F9 /* BoxCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +255,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BoxCalculator;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -285,6 +286,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BoxCalculator;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C8FD0552FCA30EE007422F9 /* Build configuration list for PBXProject "HelloWorld" */ = {
+		4C8FD0552FCA30EE007422F9 /* Build configuration list for PBXProject "BoxCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C8FD0632FCA30EF007422F9 /* Debug */,
@@ -315,7 +317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C8FD0652FCA30EF007422F9 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		4C8FD0652FCA30EF007422F9 /* Build configuration list for PBXNativeTarget "BoxCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C8FD0662FCA30EF007422F9 /* Debug */,
